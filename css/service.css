@@ -153,7 +153,29 @@ header .row>* {
 }
 /* service */
 #service{
-    padding: 100px 0;
+    padding: 50px 0;
+}
+.ser_inner{
+    padding: 20px;
+}
+.ser_inner:hover{
+    box-shadow: 0px 3px 13px 0px rgba(207,203,203,0.75);
+    -webkit-box-shadow: 0px 3px 13px 0px rgba(207,203,203,0.75);
+    -moz-box-shadow: 0px 3px 13px 0px rgba(207,203,203,0.75);
+}
+.ser_inner h5{
+    font-size: 20px;
+    color: #002e5b;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.ser_inner p{
+    padding: 16px;
+    color: #777777;
+}
+.ser_inner span{
+    padding: 14px;
+    color: #777777;
 }
 /* feature */
 #feat{

@@ -152,6 +152,9 @@ header{
     top: 20px;
     z-index: 999;
     font-weight: bold;
+    box-shadow: 3px 5px 10px 0px rgba(207,203,203,0.75);
+-webkit-box-shadow: 3px 5px 10px 0px rgba(207,203,203,0.75);
+-moz-box-shadow: 3px 5px 10px 0px rgba(207,203,203,0.75);
 }
 .about_img_txt img{
     width: 80px;
@@ -195,6 +198,7 @@ header{
 .about_btn .button_one:hover{
     color:#fff;
 }
+
 /* service */
 .service_one{
     box-shadow: -1px 4px 12px 0px rgba(214,206,206,0.75);
